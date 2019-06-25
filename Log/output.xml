@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.1 on win32)" generated="20190214 18:33:14.243" rpa="false">
+<suite id="s1" name="Test" source="C:\Automação\Apresentação_Robot\Sikuli-WTT\Test">
+<suite id="s1-s1" name="Test" source="C:\Automação\Apresentação_Robot\Sikuli-WTT\Test\test.robot">
+<test id="s1-s1-t1" name="Acessar Cap To Pacs">
+<kw name="Carrega diretório de imagens" library="resource" type="setup">
+<kw name="Add Image Path" library="SikuliLibrary">
+<doc>Add image path</doc>
+<arguments>
+<arg>${IMAGE_DIR}</arg>
+</arguments>
+<msg timestamp="20190214 18:33:18.667" level="INFO">Params: [C:\Automação\Apresentação_Robot\Sikuli-WTT\img]</msg>
+<status status="PASS" starttime="20190214 18:33:18.660" endtime="20190214 18:33:18.667"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:18.659" endtime="20190214 18:33:18.667"></status>
+</kw>
+<kw name="Acessar Cap To Pacs" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>CapToPacs.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:21.699" level="INFO">Params: [CapToPacs.png]</msg>
+<msg timestamp="20190214 18:33:21.699" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176400901.png'/&gt;
+[log] CLICK on L(664,1060)@S(0)[0,0 1920x1080] (531 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:18.668" endtime="20190214 18:33:21.700"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>04s</arg>
+</arguments>
+<msg timestamp="20190214 18:33:25.700" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20190214 18:33:21.700" endtime="20190214 18:33:25.700"></status>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20190214 18:33:25.884" level="INFO">Params: []</msg>
+<msg timestamp="20190214 18:33:25.884" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176405760.png'/&gt;</msg>
+<status status="PASS" starttime="20190214 18:33:25.700" endtime="20190214 18:33:25.884"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:18.667" endtime="20190214 18:33:25.884"></status>
+</kw>
+<kw name="Clicar em exames" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>botaoExame.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:27.014" level="INFO">Params: [botaoExame.png]</msg>
+<msg timestamp="20190214 18:33:27.014" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176406184.png'/&gt;
+[log] CLICK on L(92,249)@S(0)[0,0 1920x1080] (533 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:25.885" endtime="20190214 18:33:27.014"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>04s</arg>
+</arguments>
+<msg timestamp="20190214 18:33:31.016" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20190214 18:33:27.015" endtime="20190214 18:33:31.016"></status>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20190214 18:33:31.271" level="INFO">Params: []</msg>
+<msg timestamp="20190214 18:33:31.271" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176411075.png'/&gt;</msg>
+<status status="PASS" starttime="20190214 18:33:31.016" endtime="20190214 18:33:31.271"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:25.885" endtime="20190214 18:33:31.271"></status>
+</kw>
+<kw name="Selecionar exame com Status A Enviar" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>selectExam.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:32.263" level="INFO">Params: [selectExam.png]</msg>
+<msg timestamp="20190214 18:33:32.263" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176411518.png'/&gt;
+[log] CLICK on L(685,317)@S(0)[0,0 1920x1080] (530 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:31.272" endtime="20190214 18:33:32.263"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>04s</arg>
+</arguments>
+<msg timestamp="20190214 18:33:36.265" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20190214 18:33:32.264" endtime="20190214 18:33:36.265"></status>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20190214 18:33:36.527" level="INFO">Params: []</msg>
+<msg timestamp="20190214 18:33:36.527" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176416342.png'/&gt;</msg>
+<status status="PASS" starttime="20190214 18:33:36.265" endtime="20190214 18:33:36.527"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:31.272" endtime="20190214 18:33:36.527"></status>
+</kw>
+<kw name="Clicar em Enviar" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>buttonEnviar.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:37.632" level="INFO">Params: [buttonEnviar.png]</msg>
+<msg timestamp="20190214 18:33:37.632" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176416801.png'/&gt;
+[log] CLICK on L(1295,897)@S(0)[0,0 1920x1080] (533 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:36.528" endtime="20190214 18:33:37.632"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>04s</arg>
+</arguments>
+<msg timestamp="20190214 18:33:41.634" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20190214 18:33:37.633" endtime="20190214 18:33:41.634"></status>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20190214 18:33:41.882" level="INFO">Params: []</msg>
+<msg timestamp="20190214 18:33:41.882" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176421694.png'/&gt;</msg>
+<status status="PASS" starttime="20190214 18:33:41.634" endtime="20190214 18:33:41.882"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:36.528" endtime="20190214 18:33:41.882"></status>
+</kw>
+<kw name="Fechar janela de erro ao Enviar" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>fecharErroEnviar.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:42.981" level="INFO">Params: [fecharErroEnviar.png]</msg>
+<msg timestamp="20190214 18:33:42.981" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176422186.png'/&gt;
+[log] CLICK on L(971,582)@S(0)[0,0 1920x1080] (529 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:41.883" endtime="20190214 18:33:42.981"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>04s</arg>
+</arguments>
+<msg timestamp="20190214 18:33:46.982" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20190214 18:33:42.981" endtime="20190214 18:33:46.982"></status>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20190214 18:33:47.238" level="INFO">Params: []</msg>
+<msg timestamp="20190214 18:33:47.238" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176427045.png'/&gt;</msg>
+<status status="PASS" starttime="20190214 18:33:46.982" endtime="20190214 18:33:47.238"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:41.882" endtime="20190214 18:33:47.238"></status>
+</kw>
+<kw name="Clicar no botão tela de inicio" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>butaoTelaInicio.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:48.296" level="INFO">Params: [butaoTelaInicio.png]</msg>
+<msg timestamp="20190214 18:33:48.296" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176427517.png'/&gt;
+[log] CLICK on L(830,1005)@S(0)[0,0 1920x1080] (532 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:47.239" endtime="20190214 18:33:48.296"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>04s</arg>
+</arguments>
+<msg timestamp="20190214 18:33:52.299" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20190214 18:33:48.296" endtime="20190214 18:33:52.299"></status>
+</kw>
+<kw name="Capture Screen" library="SikuliLibrary">
+<doc>Capture whole screen, file name is returned</doc>
+<msg timestamp="20190214 18:33:52.476" level="INFO">Params: []</msg>
+<msg timestamp="20190214 18:33:52.476" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176432383.png'/&gt;</msg>
+<status status="PASS" starttime="20190214 18:33:52.299" endtime="20190214 18:33:52.476"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>fecharCaps.png</arg>
+</arguments>
+<msg timestamp="20190214 18:33:53.517" level="INFO">Params: [fecharCaps.png]</msg>
+<msg timestamp="20190214 18:33:53.517" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1550176432735.png'/&gt;
+[log] CLICK on L(1896,10)@S(0)[0,0 1920x1080] (533 msec)</msg>
+<status status="PASS" starttime="20190214 18:33:52.476" endtime="20190214 18:33:53.517"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:47.238" endtime="20190214 18:33:53.517"></status>
+</kw>
+<status status="PASS" starttime="20190214 18:33:18.659" endtime="20190214 18:33:53.520" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190214 18:33:14.268" endtime="20190214 18:33:53.521"></status>
+</suite>
+<status status="PASS" starttime="20190214 18:33:14.246" endtime="20190214 18:33:53.522"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test">Test.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

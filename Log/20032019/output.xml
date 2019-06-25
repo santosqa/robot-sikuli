@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.1 on win32)" generated="20190320 15:01:19.771" rpa="false">
+<suite id="s1" name="Test" source="C:\Automacao\Apresentacao_Robot\Sikuli-WTT\Test">
+<suite id="s1-s1" name="Test" source="C:\Automacao\Apresentacao_Robot\Sikuli-WTT\Test\test.robot">
+<test id="s1-s1-t1" name="Acessar Cap To Pacs">
+<kw name="Carrega diretório de imagens" library="resource" type="setup">
+<kw name="Add Image Path" library="SikuliLibrary">
+<doc>Add image path</doc>
+<arguments>
+<arg>${IMAGE_DIR}</arg>
+</arguments>
+<msg timestamp="20190320 15:01:23.981" level="INFO">Params: [\Automação\Apresentacao_Robot\Sikuli-WTT\img]
+[error] ImagePath: add: not valid: \Automação\Apresentacao_Robot\Sikuli-WTT\img</msg>
+<status status="PASS" starttime="20190320 15:01:23.973" endtime="20190320 15:01:23.981"></status>
+</kw>
+<status status="PASS" starttime="20190320 15:01:23.973" endtime="20190320 15:01:23.982"></status>
+</kw>
+<kw name="Acessar Cap To Pacs" library="resource">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>CapToPacs.png</arg>
+</arguments>
+<msg timestamp="20190320 15:01:25.411" level="INFO">Params: [CapToPacs.png]
+[error] Image: could not be loaded: file:/C:/Automacao/Apresentacao_Robot/Sikuli-WTT/CapToPacs.png
+[error] Region: handleImageMissing: Response.ABORT: aborting
+[error] Region: Did you want to find text? If yes, use text methods (see docs).</msg>
+<msg timestamp="20190320 15:01:25.411" level="FAIL">Wait: Abort:ImageMissing: P(CapToPacs.png -- not valid!) S: 0.699999988079071</msg>
+<status status="FAIL" starttime="20190320 15:01:23.982" endtime="20190320 15:01:25.411"></status>
+</kw>
+<status status="FAIL" starttime="20190320 15:01:23.982" endtime="20190320 15:01:25.411"></status>
+</kw>
+<status status="FAIL" starttime="20190320 15:01:23.973" endtime="20190320 15:01:25.411" critical="yes">Wait: Abort:ImageMissing: P(CapToPacs.png -- not valid!) S: 0.699999988079071</status>
+</test>
+<status status="FAIL" starttime="20190320 15:01:19.794" endtime="20190320 15:01:25.413"></status>
+</suite>
+<status status="FAIL" starttime="20190320 15:01:19.773" endtime="20190320 15:01:25.415"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Test">Test</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Test">Test.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
