@@ -5,7 +5,7 @@ Test Setup        Carrega diretório de imagens
 
 *** Test Case ***
 Acessar Cap To Pacs
-    Acessar Cap To Pacs
+    Acessar Software
     Clicar em exames
     Selecionar exame com Status A Enviar
     Clicar em Enviar

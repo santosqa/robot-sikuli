@@ -14,7 +14,7 @@ Carrega diretório de imagens
 #*** Test Case *** 
 #Acessar Cap To Pacs
 Acessar Cap To Pacs
-  Click    CapToPacs.png
+  Click    Software.png
   Sleep    04s
   Capture Screen
 
